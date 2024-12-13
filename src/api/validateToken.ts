@@ -1,7 +1,7 @@
 import { supabase } from "../../supabaseClient";
 
 export const validateToken = async () => {
-  const authToken = localStorage.getItem("sb-rvqndyyuktiqbjamkpwo-auth-token");
+  const authToken = localStorage.getItem("sb-wdbmahswkndwicmvtbkr-auth-token");
   if (!authToken) return false;
 
   try {
